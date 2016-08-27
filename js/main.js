@@ -82,7 +82,7 @@ function initBt2() {
   var particleCount = 12;
   var colors = ['#DE8AA0', '#8AAEDE', '#FFB300', '#60C7DA']
 
-  bt.addEventListener('click', function() {
+  bt.addEventListener('mouseover', function() {
     var particles = [];
     var tl = new TimelineLite();
     
